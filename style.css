@@ -246,7 +246,7 @@ body {
     margin: 0;
     font-family: mountains;
     font-size:120px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42); /*FD5602    FFAF42 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -268,7 +268,7 @@ body {
     }
 
     .hero-content .entry-header .entry-meta-date {
-        top: 60px;
+        top: -20px;
     }
 }
 
@@ -320,10 +320,45 @@ body {
 }
 
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
     color: hsl(0, 0%, 0%);
 }
 
+.button-gradient {
+  background: linear-gradient(#FF8303, #FEDEBE);
+  color: rgba(255,255,255,255);
+  width: 58px;
+  height: 58px;
+  position: relative;
+
+}
+
+.button-gradient::after {
+  font-size: 30px;
+  content: "+";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-circle-gradient {
+  background: linear-gradient(#FF8303, #FEDEBE);
+  color: rgba(255,255,255,255);
+  width: 84px;
+  height: 84px;
+  position: relative;
+   border-radius: 50%;
+}
+
+.button-circle-gradient::after {
+  font-size: 30px;
+  content: ">";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 /*------------------------------------------------------------
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
@@ -601,7 +636,7 @@ body {
     padding: 15px 35px;
     border-radius: 0;
     margin-right: 20px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
     font-weight: 500;
 }
 
@@ -747,7 +782,7 @@ body {
     top: 30px;
     left: 0;
     padding: 10px 25px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
     font-size: 20px;
     font-weight: 500;
 }
@@ -1246,7 +1281,7 @@ body {
 }
 
 .tickets-page .tabs .active {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf) !important;
+    background: -webkit-linear-gradient(#FD5602, #FFAF42) !important;
 }
 
 .tabs .tab-nav {
@@ -1260,7 +1295,7 @@ body {
 }
 
 .tabs .tab-nav:hover {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf) !important;
+    background: -webkit-linear-gradient(#FD5602, #FFAF42) !important;
 }
 
 .tickets-page .tabs .tabs-container {
@@ -1513,7 +1548,7 @@ body {
     top: 135px;
     left: 0;
     padding: 10px 25px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
     cursor: pointer;
 }
 
@@ -1562,7 +1597,7 @@ body {
 .blog-page .blog-list-page .load-more .btn {
     padding: 15px 35px;
     border-radius: 0;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
     font-weight: 500;
     outline: none;
 }
@@ -1701,7 +1736,7 @@ body {
     margin-right: 20px;
     border-radius: 0;
     font-weight: 600;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
 }
 
 /*------------------------------------------------------------
@@ -1741,7 +1776,7 @@ body {
 }
 
 .elements-page .elements-wrap .entry-content .gradient {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
 }
 
 .elements-page .elements-wrap .entry-content .white {
@@ -1793,7 +1828,7 @@ body {
 }
 
 .tabs ul .active {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf) !important;
+    background: -webkit-linear-gradient(#FD5602, #FFAF42) !important;
 }
 
 .tabs ul .tab-nav {
@@ -1852,7 +1887,7 @@ body {
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .active {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-content {
@@ -1914,7 +1949,7 @@ body {
     font-size: 48px;
     font-weight: 500;
     line-height: 1;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#FD5602, #FFAF42);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1946,11 +1981,3 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
-
-
-
-
-
-
-
